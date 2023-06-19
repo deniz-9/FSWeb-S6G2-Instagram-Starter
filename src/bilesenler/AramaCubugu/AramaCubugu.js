@@ -10,6 +10,7 @@ import {
 import "./AramaCubugu.css";
 
 const AramaCubugu = (props) => {
+  const {arama, setArama} = props;
   return (
     <div className="search-bar-wrapper">
       <div className="social">

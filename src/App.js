@@ -49,7 +49,7 @@ const App = () => {
   return (
     <div className="App">
       {/* App Çalışıyor */}
-      <AramaCubugu />
+      <AramaCubugu/>
       <Gonderiler gonderiyiBegen={gonderiyiBegen} gonderiler={gonderiler} />
       {/* Yukarıdaki metni projeye başladığınızda silin*/}
       {/* AramaÇubuğu ve Gönderiler'i render etmesi için buraya ekleyin */}
